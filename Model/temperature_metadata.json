@@ -1,0 +1,27 @@
+{
+    "past_history": 10,
+    "future_target": 1,
+    "step": 1,
+    "target_column": "T (degC)",
+    "target_col_index": 1,
+    "feature_columns": [
+        "p (mbar)",
+        "T (degC)",
+        "Tpot (K)",
+        "Tdew (degC)",
+        "rh (%)",
+        "VPmax (mbar)",
+        "VPact (mbar)",
+        "VPdef (mbar)",
+        "sh (g/kg)",
+        "H2OC (mmol/mol)",
+        "rho (g/m**3)",
+        "wv (m/s)",
+        "max. wv (m/s)",
+        "wd (deg)"
+    ],
+    "sampling_frequency": "1 day",
+    "model_type": "GRU",
+    "dataset": "Daily averaged temperature + climate features",
+    "scaler_type": "StandardScaler"
+}
